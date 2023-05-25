@@ -1,9 +1,15 @@
 import React from 'react'
+import './Button.css';
+import { Link } from 'react-router-dom';
 
-const Button = () => {
-  return (
-    <div>Button</div>
-  )
+export const Button = ({
+  children, 
+  type, 
+  onClick,
+   buttonStyle, 
+   buttonSize
+  }) => {
+    checkButtonStyle = STYLES.includes(buttonStyle);
+ 
 }
 
-export default Button
