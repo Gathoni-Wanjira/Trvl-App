@@ -11,11 +11,11 @@ const HeroSection = () => {
       <p>What are you waiting for?</p>
       <div className='hero-btns'> 
       <Button className='btns' buttonSize = 'btn--large' buttonStyle = "btn--outline" > GET STARTED</Button>
-      <Button  className = 'btns' buttonSize = 'btn--large' buttonStyle = 'btn--primary'>WATCH TRAILER <i className='far-fa-play-circle' /> </Button>
+      <Button  className = 'btns' buttonSize = 'btn--large' buttonStyle = 'btn--primary'>WATCH TRAILER <i className='far-fa-play-circle' />  </Button>
       </div>
   
     </div>
-  )
+  );
 }
 
-export default HeroSection
+export default HeroSection;
