@@ -9,12 +9,16 @@ import {
 import Home from './Components/Pages/Home';
 const router = createBrowserRouter([{
     path: "/",
-    element:<><App/> <Home/></> 
+    element:
+    <>
+    <App/> 
+    <Home/>
+    
+
+    </> 
 },
-{
-    path: "/home",
-    element: <Home/>
-}])
+
+ ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
