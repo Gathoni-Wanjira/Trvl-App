@@ -19,4 +19,4 @@ const CardItem = () => {
   )
 }
 
-export default CardItem
+export default CardItem;
